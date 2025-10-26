@@ -16,6 +16,12 @@ CODEOWNERS = ["@jesserockz"]
 DEPENDENCIES = ["esp32"]
 MULTI_CONF = True
 
+CONF_I2S_DOUT_PIN = "i2s_dout_pin"
+CONF_I2S_DIN_PIN = "i2s_din_pin"
+CONF_I2S_MCLK_PIN = "i2s_mclk_pin"
+CONF_I2S_BCLK_PIN = "i2s_bclk_pin"
+CONF_I2S_LRCLK_PIN = "i2s_lrclk_pin"
+
 CONF_I2S_AUDIO = "m5atoms3_audio"
 CONF_I2S_AUDIO_ID = "m5atoms3_audio_id"
 
